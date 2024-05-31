@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+</head>
+<body id="blog-page" class="second-page">
+
+    <header>
+        <div class="container">
+            <div class="head">
+                <a class="logo" href="../index.html">
+                    <img src="../assets/img/logo/logo.png" alt="">
+                </a>
+                <nav>
+                    <ul class="nav-list">
+                        <li><a href="../commercial/index.html" class="hnav-item">commercial</a></li>
+                        <li><a href="../residential/index.html" class="hnav-item">residential</a></li>
+                        <li><a href="../gallery/index.html" class="hnav-item">gallery</a></li>
+                        <li><a href="../videos/index.html" class="hnav-item">videos</a></li>
+                        <li><a href="../about/index.html" class="hnav-item">about</a></li>
+                        <li><a href="../blog/index.html" class="hnav-item active-item">blog</a></li>
+                    </ul>
+                    <div class="head-contact for-contact">
+                        <a href="tel:(908) 644-9819" class="phone">
+                            <span class="icon-phone">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                                    <g filter="url(#filter0_d_1_223)">
+                                      <circle cx="20.2611" cy="18.8604" r="15" fill="#BDD200" stroke="#0E1424" stroke-width="2"/>
+                                      <path d="M23.1946 21.5177C22.7947 20.9798 22.0219 20.8828 21.4841 21.2967L20.9042 21.7661C20.7802 21.8626 20.5733 21.8491 20.4628 21.7246C19.3866 20.4829 18.6277 19.0343 18.2279 17.4336C18.1864 17.2681 18.2829 17.1027 18.4489 17.0472L19.1662 16.8262C19.8145 16.6333 20.1594 15.9434 19.9525 15.2945L19.3731 13.5009C19.1937 12.9631 18.5728 12.7006 18.0765 12.9631C16.1584 13.9709 14.9577 16.1784 17.2896 20.6482C19.621 25.1047 22.1185 25.3806 24.0225 24.3874C24.5329 24.1255 24.6709 23.4631 24.326 23.0077L23.1946 21.5177Z" fill="#0E1424"/>
+                                    </g>
+                                    <defs>
+                                      <filter id="filter0_d_1_223" x="0.261108" y="0.860352" width="40" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                        <feOffset dy="2"/>
+                                        <feGaussianBlur stdDeviation="2"/>
+                                        <feColorMatrix type="matrix" values="0 0 0 0 0.537255 0 0 0 0 0.537255 0 0 0 0 0.537255 0 0 0 0.2 0"/>
+                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_223"/>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_223" result="shape"/>
+                                      </filter>
+                                    </defs>
+                                </svg>
+                            </span>
+                            <p class="p-number">908.644.9819</p>
+                        </a>
+                        <button type="button" class="fd-cta" data-bs-toggle="modal" data-bs-target="#modal">
+                            get an estimate
+                        </button>
+                    </div>
+                </nav>
+                <div class="open-menu">
+                    <img src="../assets/img/icons/menu.png" alt="">
+                </div>
+                <div class="head-mobile">
+                    <div class="close-nav">
+                        <img src="../assets/img/icons/close-g.png" alt="">
+                    </div>
+                    <div class="nav-mobile">
+                        <ul class="nav-list">
+                            <li><a href="../commercial/index.html" class="hnav-item">commercial</a></li>
+                            <li><a href="../residential/index.html" class="hnav-item">residential</a></li>
+                            <li><a href="../gallery/index.html" class="hnav-item">gallery</a></li>
+                            <li><a href="../videos/index.html" class="hnav-item">videos</a></li>
+                            <li><a href="../about/index.html" class="hnav-item">about</a></li>
+                            <li><a href="../blog/index.html" class="hnav-item">blog</a></li>
+                        </ul>
+                        <button type="button" class="fd-cta" data-bs-toggle="modal" data-bs-target="#modal">
+                            get an estimate
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="container">
+                <div class="content-hero">
+                    <span class="title-pages">
+                        <a href="../index.html" class="prev-page"><h5>home </h5> </a>
+                        <h5 class="text-white me-3">/ </h5>
+                        <h5 class="subtitle"> blog</h5>
+                    </span>
+                    <h1 class="title"> Insights, Inspiration, <br> and Informative Reads</h1>
+                </div>
+            </div>
+            <div class="bg-hero">
+                <div class="bg-img">
+                    <img src="../assets/img/home/Inner-hero-top-bg (2).png" alt="" loading="lazy">
+                </div>
+                <div class="bg-overlay"></div>
+            </div>
+        </section> 
+
+        <section class="all-post">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="post">
+                            <div class="img-thumbnail">
+                                <img src="../assets/img/home/Rectangle 16.png" alt="">
+                            </div>
+                            <div class="desc-post">
+                                <h5 class="subtitle">
+                                    How to prevent accidents and avoid accelerated wear on surfaces in your home
+                                </h5>
+                                <p class="paragraph">
+                                    To prevent accidents and avoid accelerating wear and tear on household surfaces, there are several steps you can take.
+                                </p>
+                            </div>
+                            <button class="learn-more fd-cta" tabindex="0">
+                                <a href="../blog-detail/index.html" class="" tabindex="0">
+                                    learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow-l">
+                                        <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#BDD200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="post">
+                            <div class="img-thumbnail">
+                                <img src="../assets/img/home/Rectangle 16.png" alt="">
+                            </div>
+                            <div class="desc-post">
+                                <h5 class="subtitle">
+                                    How to prevent accidents and avoid accelerated wear on surfaces in your home
+                                </h5>
+                                <p class="paragraph">
+                                    To prevent accidents and avoid accelerating wear and tear on household surfaces, there are several steps you can take.
+                                </p>
+                            </div>
+                            <button class="learn-more fd-cta" tabindex="0">
+                                <a href="../blog-detail/index.html" class="" tabindex="0">
+                                    learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow-l">
+                                        <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#BDD200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="post">
+                            <div class="img-thumbnail">
+                                <img src="../assets/img/home/Rectangle 16.png" alt="">
+                            </div>
+                            <div class="desc-post">
+                                <h5 class="subtitle">
+                                    How to prevent accidents and avoid accelerated wear on surfaces in your home
+                                </h5>
+                                <p class="paragraph">
+                                    To prevent accidents and avoid accelerating wear and tear on household surfaces, there are several steps you can take.
+                                </p>
+                            </div>
+                            <button class="learn-more fd-cta" tabindex="0">
+                                <a href="../blog-detail/index.html" class="" tabindex="0">
+                                    learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow-l">
+                                        <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#BDD200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="post">
+                            <div class="img-thumbnail">
+                                <img src="../assets/img/home/Rectangle 16.png" alt="">
+                            </div>
+                            <div class="desc-post">
+                                <h5 class="subtitle">
+                                    How to prevent accidents and avoid accelerated wear on surfaces in your home
+                                </h5>
+                                <p class="paragraph">
+                                    To prevent accidents and avoid accelerating wear and tear on household surfaces, there are several steps you can take.
+                                </p>
+                            </div>
+                            <button class="learn-more fd-cta" tabindex="0">
+                                <a href="../blog-detail/index.html" class="" tabindex="0">
+                                    learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow-l">
+                                        <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#BDD200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="post">
+                            <div class="img-thumbnail">
+                                <img src="../assets/img/home/Rectangle 16.png" alt="">
+                            </div>
+                            <div class="desc-post">
+                                <h5 class="subtitle">
+                                    How to prevent accidents and avoid accelerated wear on surfaces in your home
+                                </h5>
+                                <p class="paragraph">
+                                    To prevent accidents and avoid accelerating wear and tear on household surfaces, there are several steps you can take.
+                                </p>
+                            </div>
+                            <button class="learn-more fd-cta" tabindex="0">
+                                <a href="../blog-detail/index.html" class="" tabindex="0">
+                                    learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow-l">
+                                        <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#BDD200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="post">
+                            <div class="img-thumbnail">
+                                <img src="../assets/img/home/Rectangle 16.png" alt="">
+                            </div>
+                            <div class="desc-post">
+                                <h5 class="subtitle">
+                                    How to prevent accidents and avoid accelerated wear on surfaces in your home
+                                </h5>
+                                <p class="paragraph">
+                                    To prevent accidents and avoid accelerating wear and tear on household surfaces, there are several steps you can take.
+                                </p>
+                            </div>
+                            <button class="learn-more fd-cta" tabindex="0">
+                                <a href="../blog-detail/index.html" class="" tabindex="0">
+                                    learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow-l">
+                                        <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#BDD200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="post">
+                            <div class="img-thumbnail">
+                                <img src="../assets/img/home/Rectangle 16.png" alt="">
+                            </div>
+                            <div class="desc-post">
+                                <h5 class="subtitle">
+                                    How to prevent accidents and avoid accelerated wear on surfaces in your home
+                                </h5>
+                                <p class="paragraph">
+                                    To prevent accidents and avoid accelerating wear and tear on household surfaces, there are several steps you can take.
+                                </p>
+                            </div>
+                            <button class="learn-more fd-cta" tabindex="0">
+                                <a href="../blog-detail/index.html" class="" tabindex="0">
+                                    learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow-l">
+                                        <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#BDD200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="post">
+                            <div class="img-thumbnail">
+                                <img src="../assets/img/home/Rectangle 16.png" alt="">
+                            </div>
+                            <div class="desc-post">
+                                <h5 class="subtitle">
+                                    How to prevent accidents and avoid accelerated wear on surfaces in your home
+                                </h5>
+                                <p class="paragraph">
+                                    To prevent accidents and avoid accelerating wear and tear on household surfaces, there are several steps you can take.
+                                </p>
+                            </div>
+                            <button class="learn-more fd-cta" tabindex="0">
+                                <a href="../blog-detail/index.html" class="" tabindex="0">
+                                    learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow-l">
+                                        <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#BDD200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="post">
+                            <div class="img-thumbnail">
+                                <img src="../assets/img/home/Rectangle 16.png" alt="">
+                            </div>
+                            <div class="desc-post">
+                                <h5 class="subtitle">
+                                    How to prevent accidents and avoid accelerated wear on surfaces in your home
+                                </h5>
+                                <p class="paragraph">
+                                    To prevent accidents and avoid accelerating wear and tear on household surfaces, there are several steps you can take.
+                                </p>
+                            </div>
+                            <button class="learn-more fd-cta" tabindex="0">
+                                <a href="../blog-detail/index.html" class="" tabindex="0">
+                                    learn more
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" class="arrow-l">
+                                        <path d="M4 12H20M20 12L14 6M20 12L14 18" stroke="#BDD200" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        
+        <div class="f-contact">
+            <span class="img-form">
+                <img src="../assets/img/logo/logo.png" alt="">
+            </span>
+            <div class="contact for-contact">
+                <a href="tel:(908) 644-9819" class="phone">
+                    <span class="icon-phone">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="41" height="41" viewBox="0 0 41 41" fill="none">
+                            <g filter="url(#filter0_d_1_223)">
+                              <circle cx="20.2611" cy="18.8604" r="15" fill="#BDD200" stroke="#0E1424" stroke-width="2"/>
+                              <path d="M23.1946 21.5177C22.7947 20.9798 22.0219 20.8828 21.4841 21.2967L20.9042 21.7661C20.7802 21.8626 20.5733 21.8491 20.4628 21.7246C19.3866 20.4829 18.6277 19.0343 18.2279 17.4336C18.1864 17.2681 18.2829 17.1027 18.4489 17.0472L19.1662 16.8262C19.8145 16.6333 20.1594 15.9434 19.9525 15.2945L19.3731 13.5009C19.1937 12.9631 18.5728 12.7006 18.0765 12.9631C16.1584 13.9709 14.9577 16.1784 17.2896 20.6482C19.621 25.1047 22.1185 25.3806 24.0225 24.3874C24.5329 24.1255 24.6709 23.4631 24.326 23.0077L23.1946 21.5177Z" fill="#0E1424"/>
+                            </g>
+                            <defs>
+                              <filter id="filter0_d_1_223" x="0.261108" y="0.860352" width="40" height="40" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="2"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0.537255 0 0 0 0 0.537255 0 0 0 0 0.537255 0 0 0 0.2 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_223"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_223" result="shape"/>
+                              </filter>
+                            </defs>
+                        </svg>
+                    </span>
+                    <p class="p-number">908.644.9819</p>
+                </a>
+                <button type="button" class="fd-cta" data-bs-toggle="modal" data-bs-target="#modal">
+                    get an estimate
+                </button>
+            </div>            
+        </div>
+
+        <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal-t" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="form-estimate">
+                    <div class="close-modal" data-bs-dismiss="modal" aria-label="Close">
+                        <img src="../assets/img/icons/close-g.png" alt="">
+                    </div>
+                    <h4 class="title-f">
+                        Get Your Free Estimate <br>
+                        For A Beautiful Concrete <br>
+                        Coating Now
+                    </h4>
+                    <form action="">
+                        <div class="row-f">
+                            <span class="info-inp">
+                                <label for="" class="label-f">first name</label>
+                                <input type="text" class="input-f" name="firstName">
+                            </span>
+                            <span class="info-inp">
+                                <label for="" class="label-f">last name</label>
+                                <input type="text" class="input-f" name="lastName">
+                            </span>
+                        </div>
+                        <div class="row-f">
+                            <span class="info-inp">
+                                <label for="" class="label-f">phone number</label>
+                                <input type="text" class="input-f" name="phone">
+                            </span>
+                            <span class="info-inp">
+                                <label for="" class="label-f">e-mail address</label>
+                                <input type="text" class="input-f" name="email">
+                            </span>
+                        </div>
+                        <div class="row-f">
+                            <span class="info-inp">
+                                <label for="" class="label-f">zip code</label>
+                                <input type="text" class="input-f" name="zip">
+                            </span>
+                            <span class="info-inp">
+                                <label for="" class="label-f">service type</label>
+                                <input type="text" class="input-f" name="service">
+                            </span>
+                        </div>
+                        <div class="row-f">
+                            <span class="info-inp">
+                                <label for="" class="label-f">project description</label>
+                                <textarea name="project" id="" cols="30" rows="10" class="input-f text-f"></textarea>
+                            </span>
+                        </div>
+                        <p class="text-pr">By submitting, I agree to the <a href="javascript:;">Privacy Policy</a></p>
+                        <button class="fd-cta">get my free estimate</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <section class="footer"> 
+            <div class="container">
+                <div class="content-footer">
+                    <div class="col-4">
+                        <a href="../index.html" class="logo">
+                            <img src="../assets/img/logo/logo-ft.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-8 col-12">
+                        <div class="lists-footer">
+                            <ul class="list-link">
+                                <li><p class="title-list">company</p></li>
+                                <li><a href="../about/index.html">about us</a></li>
+                                <li><a href="../blog/index.html" style="text-decoration: underline;" class="text-white">blog</a></li>
+                                <li><a href="javascript:;">reviews</a></li>
+                                <li><a href="javascript:;">careers</a></li>
+                                <li><a href="javascript:;">projects</a></li>
+                            </ul>
+                            <ul class="list-link">
+                                <li><p class="title-list">products</p></li>
+                                <li><a href="../commercial/index.html">Commercial Flooring</a></li>
+                                <li><a href="../residential/index.html">Residential Flooring</a></li>
+                                <li><a href="../gallery/index.html">Gallery</a></li>
+                                <li><a href="../videos/index.html">Videos</a></li>
+                            </ul>
+                            <ul class="list-link">
+                                <li><p class="title-list">help</p></li>
+                                <li><a href="../contact/index.html">contact us</a></li>
+                                <li><a href="javascript:;">warranty</a></li>
+                                <li><a href="javascript:;">financing</a></li>
+                                <li><a href="javascript:;">sitemap</a></li>
+                            </ul>
+                            <ul class="list-link">
+                                <li><p class="title-list">legal</p></li>
+                                <li><a href="javascript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="links">
+                        <a class="social" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <g clip-path="url(#clip0_1_390)">
+                              <path class="hv" d="M24.261 12.8604C24.261 6.23293 18.8884 0.860352 12.261 0.860352C5.63356 0.860352 0.260986 6.23293 0.260986 12.8604C0.260986 18.8498 4.64919 23.8143 10.386 24.7146V16.3291H7.33911V12.8604H10.386V10.2166C10.386 7.2091 12.1775 5.54785 14.9186 5.54785C16.2311 5.54785 17.6047 5.78223 17.6047 5.78223V8.73535H16.0916C14.601 8.73535 14.136 9.66043 14.136 10.6104V12.8604H17.4641L16.9321 16.3291H14.136V24.7146C19.8728 23.8143 24.261 18.8498 24.261 12.8604Z" fill="#E2E7E2"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_1_390">
+                                <rect width="24" height="24" fill="white" transform="translate(0.260986 0.860352)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </a>
+                        <a class="social" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                <g clip-path="url(#clip0_1_393)">
+                                  <path class="hv" d="M22.4844 0.860352H2.03286C1.05317 0.860352 0.260986 1.63379 0.260986 2.59004V23.126C0.260986 24.0822 1.05317 24.8604 2.03286 24.8604H22.4844C23.4641 24.8604 24.261 24.0822 24.261 23.1307V2.59004C24.261 1.63379 23.4641 0.860352 22.4844 0.860352ZM7.3813 21.3119H3.8188V9.85566H7.3813V21.3119ZM5.60005 8.29473C4.4563 8.29473 3.53286 7.37129 3.53286 6.23223C3.53286 5.09316 4.4563 4.16973 5.60005 4.16973C6.73911 4.16973 7.66255 5.09316 7.66255 6.23223C7.66255 7.3666 6.73911 8.29473 5.60005 8.29473ZM20.7125 21.3119H17.1547V15.7432C17.1547 14.4166 17.1313 12.7057 15.3032 12.7057C13.4516 12.7057 13.1704 14.1541 13.1704 15.6494V21.3119H9.61724V9.85566H13.0297V11.4213H13.0766C13.55 10.5213 14.7126 9.56973 16.4422 9.56973C20.0469 9.56973 20.7125 11.9416 20.7125 15.026V21.3119Z" fill="#E2E7E2"/>
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_1_393">
+                                    <rect width="24" height="24" fill="white" transform="translate(0.260986 0.860352)"/>
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                        </a>
+                    </div>
+                    <div class="create-by">
+                        <p>Site by <a href="https://belaajelr.netlify.app" target="_blank">belaajel abderrahman</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-footer">
+                <div class="f-bg-img">
+                    <img src="../assets/img/home/footer-bg.png" alt="">
+                </div>
+                <div class="f-bg-overlay"></div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../assets/js/base.js"></script>
+    <script src="../assets/js/slide.js"></script>
+</body>
+</html>
