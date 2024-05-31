@@ -1,3 +1,4 @@
+$( document ).ready(function() {
 $('.box-testimonials').slick({    
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -61,3 +62,4 @@ $('.recent-post').slick({
 //       el: ".swiper-pagination",
 //     },
 // });
+})
